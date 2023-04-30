@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space-shop</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- в любую работу вставляю такой заголовок. Скринридер озвучит то, что не видит пользователь -->
+  <h1 class="visually-hidden">
+    Space-shop - магазин космических кораблей.
+  </h1>
+  <header class="header container header-container">
+    <div class="header-wrap">
+      <img class="header__img" src="img/logo.svg" alt="Логотип Space-shop">
+      <button class="header__btn btn btn-reset">
+        ЛИЧНЫЙ КАБИНЕТ
+      </button>
+    </div>
+  </header>
+  <main class="main">
+    <section class="novelties container novelties-container">
+      <h2 class="section-title novelties-title">
+        Наши новинки:
+      </h2>
+      <div class="novelties-cards-wrap">
+        <ul class="novelties-card-top-list list-reset">
+          <li class="novelties-card-top-list__item">
+            <img class="novelties-card-top-list__item-img" src="img/card-1.webp" alt="Чегантина">
+            <div class="novelties-card-wrap">
+              <p class="novelties-card-top-list__item-descr">
+                «Чегантина» – парадный боевой крейсер
+              </p>
+              <div class="novelties-card-cost-wrap">
+                <span class="novelties-card-cost-old">
+                  $1 299
+                </span>
+                <span class="novelties-card-cost novelties-card-cost--padding">
+                  $999
+                </span>
+              </div>
+              <button class="novelties-card-top-list__item-btn btn btn-reset ">
+                ЗАКАЗАТЬ
+              </button>
+            </div>
+          </li>
+          <li class="novelties-card-top-list__item">
+            <img class="novelties-card-top-list__item-img" src="img/card-2.webp" alt="Космический корабль синего цвета">
+            <div class="novelties-card-wrap">
+              <p class="novelties-card-top-list__item-descr">
+                Космический корабль синего цвета (c&nbsp;локаторами)
+              </p>
+              <div class="novelties-card-cost-wrap">
+                <span class="novelties-card-cost-old">
+                  $1 899
+                </span>
+                <span class="novelties-card-cost">
+                  $1&nbsp;299
+                </span>
+              </div>
+              <button class="novelties-card-top-list__item-btn btn btn-reset ">
+                ЗАКАЗАТЬ
+              </button>
+            </div>
+          </li>
+          <li class="novelties-card-top-list__item">
+            <img class="novelties-card-top-list__item-img" src="img/card-3.webp" alt="Ночной ястреб">
+            <div class="novelties-card-wrap">
+              <p class="novelties-card-top-list__item-descr">
+                «Ночной ястреб» – Надежный корабль-перехватчик
+              </p>
+              <div class="novelties-card-cost-wrap novelties-card-cost-wrap--one-price">
+                <span class="novelties-card-cost">
+                  $799
+                </span>
+              </div>
+              <button class="novelties-card-top-list__item-btn btn btn-reset ">
+                ЗАКАЗАТЬ
+              </button>
+            </div>
+          </li>
+        </ul>
+        <ul class="novelties-card-bottom-list list-reset">
+          <li class="novelties-card-bottom-list__item">
+            <img class="novelties-card-bottom-list__item-img" src="img/card-4.webp" alt="Карающий луч">
+            <div class="novelties-card-wrap">
+              <p class="novelties-card-bottom-list__item-descr">
+                «Карающий луч» – Полнофункциональный боевой корабль низкой ценовой категории
+              </p>
+              <div class="novelties-card-cost-wrap novelties-card-cost-wrap--one-price">
+                <span class="novelties-card-cost">
+                  $479
+                </span>
+              </div>
+              <button class="novelties-card-bottom-list__item-btn btn btn-reset ">
+                ЗАКАЗАТЬ
+              </button>
+            </div>
+          </li>
+          <li class="novelties-card-bottom-list__item">
+            <img class="novelties-card-bottom-list__item-img" src="img/card-5.webp" alt="Антидоминатор">
+            <div class="novelties-card-wrap">
+              <p class="novelties-card-bottom-list__item-descr">
+                «Антидоминатор» – Дорогое&nbsp;и&nbsp;эффективное оружие против доминаторов.
+              </p>
+              <div class="novelties-card-cost-wrap novelties-card-cost-wrap--one-price">
+                <span class="novelties-card-cost">
+                  $1 779
+                </span>
+              </div>
+              <button class="novelties-card-bottom-list__item-btn btn btn-reset ">
+                ЗАКАЗАТЬ
+              </button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="ship-of-day container ship-of-day-conainer">
+      <h2 class="section-title ship-of-day-title">
+        Корабль дня:
+      </h2>
+      <div class="ship-of-day-wrap">
+        <div class="ship-of-day-top-wrap">
+          <img class="ship-of-day-img" src="img/ship-of-day.webp" alt="Цербер">
+          <div class="ship-points-wrap">
+            <div class="ship-grade">
+              <img class="ship-grade__img" src="img/icon--spaceship.webp" alt="оценка">
+              <img class="ship-grade__img" src="img/icon--spaceship.webp" alt="оценка">
+              <img class="ship-grade__img" src="img/icon--spaceship.webp" alt="оценка">
+              <img class="ship-grade__img" src="img/icon--spaceship.webp" alt="оценка">
+              <img class="ship-grade__img" src="img/icon--spaceship.webp" alt="оценка">
+            </div>
+            <p class="ship-title">
+              «Цербер»
+            </p>
+            <p class="ship-descr">
+              Маневренное патрульное судно, предназначенное для охраны систем.
+            </p>
+            <div class="ship-discount">
+              <span class="ship-discount__old-cost">
+                $1 600
+              </span>
+              <span class="ship-discount__old-cost">
+                $1 400
+              </span>
+              <span class="ship-discount__cost">
+                $800
+              </span>
+              <span class="ship-discount__discount">
+                -50%
+              </span>
+            </div>
+            <div class="ship-discount-descr">
+              <span class="ship-discount-descr__text">
+                Скидка SPACESHOP
+              </span>
+              <span class="ship-discount-descr__text">
+                $200
+              </span>
+            </div>
+            <div class="ship-discount-descr">
+              <span class="ship-discount-descr__text">
+                Промокод «КОРАБЛЬДНЯ3»
+              </span>
+              <span class="ship-discount-descr__text">
+                $600
+              </span>
+            </div>
+            <div class="ship-discount-descr">
+              <span class="ship-discount-descr__text">
+                Вы эĸономите
+              </span>
+              <span class="ship-discount-descr__economy">
+                $800
+              </span>
+            </div>
+          </div>
+        </div>
+        <p class="ship-of-day-promo">
+          КОРАБЛЬДНЯ3
+        </p>
+        <button class="ship-of-day-btn btn btn-reset">
+          ЗАКАЗАТЬ
+        </button>
+      </div>
+    </section>
+  </main>
+  <footer class="footer container footer-container">
+    <p class="footer-text">
+      Присоединяйтесь к нам в соц. сетях!
+    </p>
+    <div class="footer-social">
+      <a class="footer-social__link footer-social__link--youtube" href="#">
+      </a>
+      <a class="footer-social__link footer-social__link--facebook" href="#">
+      </a>
+      <a class="footer-social__link footer-social__link--instagram" href="#">
+      </a>
+    </div>
+    <div class="footer-contacts">
+      <div class="footer-contacts-text">
+        <span class="footer-contacts-text__descr">
+          Контакты:
+        </span>
+        <a class="footer-contacts-text__link" href="tel:+0123456789">
+          0 (123) 345-67-89
+        </a>
+        <a class="footer-contacts-text__link" href="mailto:contact@spaceshop.sp">
+          contact@spaceshop.sp
+        </a>
+      </div>
+      <img class="footer-contacts-logo" src="img/logo.svg" alt="Лого Space-shop">
+    </div>
+  </footer>
+</body>
+
+</html>
